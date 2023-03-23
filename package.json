@@ -1,0 +1,27 @@
+{
+  "name": "js-easy-answer-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@a2seven/yoo-checkout": "^1.1.4",
+    "chatgpt": "^5.1.2",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2",
+    "mongoose-findorcreate": "^3.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "telegram-command-handler": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
